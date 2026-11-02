@@ -1,11 +1,11 @@
-# autoperceive_jd495
+# gradient_accumulation_batch_segmenter
 
 **把自动驾驶感知工程师·梯度累积与有效批量切成可核查的片段并标出关键位置。**
 
-`autoperceive_jd495` —— 把输入按语义边界切成独立单元，逐单元核对自动驾驶感知工程师·梯度累积与有效批量相关的特征并标出命中位置
+`gradient_accumulation_batch_segmenter` —— 把输入按语义边界切成独立单元，逐单元核对自动驾驶感知工程师·梯度累积与有效批量相关的特征并标出命中位置
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`autoperceive_jd495.py` 拷走就能用
+- 单文件，`gradient_accumulation_batch_segmenter.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install polichspot-autoperceive_jd495
+pip install polichspot-gradient_accumulation_batch_segmenter
 ```
 
 装完直接用命令名调用：
 
 ```bash
-autoperceive_jd495 --help
+gradient_accumulation_batch_segmenter --help
 ```
 
-也可以不用安装，直接把 `autoperceive_jd495.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `gradient_accumulation_batch_segmenter.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ autoperceive_jd495 --help
 ## 用法
 
 ```bash
-python autoperceive_jd495.py --file input.txt
-python autoperceive_jd495.py --text "示例内容"
-python autoperceive_jd495.py --file input.txt --json
+python gradient_accumulation_batch_segmenter.py --file input.txt
+python gradient_accumulation_batch_segmenter.py --text "示例内容"
+python gradient_accumulation_batch_segmenter.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python autoperceive_jd495.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_autoperceive_jd495.py
+python test_gradient_accumulation_batch_segmenter.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_autoperceive_jd495.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/polichspot/autoperceive_jd495>
+- GitHub 仓库：<https://github.com/polichspot/gradient_accumulation_batch_segmenter>
 
 ---
 
@@ -79,7 +79,7 @@ python test_autoperceive_jd495.py
 polichspot 做自动驾驶感知工程师·梯度累积与有效批量相关的问题，方向对标快手的初级自动驾驶感知工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://polichspot.github.io>
-- 仓库：<https://github.com/polichspot/autoperceive_jd495>
+- 仓库：<https://github.com/polichspot/gradient_accumulation_batch_segmenter>
 
 ## 许可
 

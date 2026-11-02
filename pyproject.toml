@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "polichspot-autoperceive_jd495"
+name = "polichspot-gradient_accumulation_batch_segmenter"
 version = "0.1.0"
 description = "把输入按语义边界切成独立单元，逐单元核对自动驾驶感知工程师·梯度累积与有效批量相关的特征并标出命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://polichspot.github.io"
-Repository = "https://github.com/polichspot/autoperceive_jd495"
-Issues = "https://github.com/polichspot/autoperceive_jd495/issues"
+Repository = "https://github.com/polichspot/gradient_accumulation_batch_segmenter"
+Issues = "https://github.com/polichspot/gradient_accumulation_batch_segmenter/issues"
 
 [project.scripts]
-autoperceive_jd495 = "autoperceive_jd495:main"
+gradient_accumulation_batch_segmenter = "gradient_accumulation_batch_segmenter:main"
 
 [tool.setuptools]
-py-modules = ["autoperceive_jd495"]
+py-modules = ["gradient_accumulation_batch_segmenter"]
